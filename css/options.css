@@ -1,0 +1,29 @@
+.options{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.options article{
+    border: solid 7px #18cfab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 370px;
+}
+.options article:nth-child(odd)
+{
+    background-color: #1c2a33;
+    color: #18cfab;
+}
+.options article:nth-child(even)
+{
+    background-color: #18cfab;
+    color: #fff;
+}
+.options div{
+    height: 97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+}

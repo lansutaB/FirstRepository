@@ -1,0 +1,125 @@
+.bg-about{
+    background-image: url(../img/bg-about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+    padding-bottom: 8.3%;
+}
+.about h2 {
+    grid-column-start: 2;
+    color: #fff;
+    margin-top: 8.3%;
+    margin-bottom: 10.5%;
+    text-align: left;
+    margin-bottom: 22.2%;
+}
+.about .tabs{
+    display: flex;
+    margin-bottom: 6%;
+}
+.about .tabs li{
+    margin-right: 20px;
+}
+.about .tabs a
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'ExtraBold';
+    font-size: 16px;
+    line-height: 45px;
+    padding-top: 10px;
+}
+.about .tabs a.active
+{
+    color:#18cfab;
+    
+}
+.about .tabs a:hover{
+    border-top: solid 2px #18cfab;
+}
+/* .about .skills{
+    /* display: none; */
+/* } */ 
+.about .skills li
+{
+    height: 39px;
+    margin-bottom: 15px;
+    border:  solid 1px #959595;
+    color:#fff;
+    font-family: 'Regular';
+    font-size: 13px;
+    line-height: 27px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+.about .skills li span{
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    height: 39px;
+    transform: translate(-1px,-1px);
+    border-radius: 3px;
+}
+
+.about .skills li:nth-child(1) span
+{
+    background-color: #9c5da5;
+    width: 72.1%;
+}
+.about .skills li:nth-child(2) span
+{
+    background-color: #11b0de;
+    width: 84.7%;
+}
+.about .skills li:nth-child(3) span
+{
+    background-color: #d67f7f;
+    width: 66.7%;
+}
+.about .skills li:nth-child(4) span
+{
+    background-color: #20bc9d;
+    width: 90.1%;
+}
+.about .skills li:nth-child(5) span
+{
+    background-color: #bb8a36;
+    width: 84.7%;
+}
+
+/*History*/
+.about .history
+{
+    font-family: 'Light';
+    font-size: 14px;
+    line-height: 25px;
+    color:#bebebe;
+    display: none;
+}
+.about .history ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+    margin-top: 50px;
+    line-height: 38px;
+}
+.about .history ul li{
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+}
+.about .history ul li::before{
+    display: block;
+    content: '';
+    width: 23px;
+    height: 23px;
+    background-image: url(../img/icon-list.png);
+    transform: translateX(-18px);
+}
